@@ -1,0 +1,55 @@
+{
+  "name": "slidev-theme-euricom",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.30.0"
+  },
+  "description": "Euricom theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "euricom"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Euricom/slidev-theme-euricom"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "shiki",
+    "defaults": {
+      "fonts": {
+        "sans": "Source Sans Pro",
+        "serif": "IBM Plex Serif",
+        "mono": "IBM Plex Mono",
+        "weights": [
+          "200",
+          "400",
+          "600"
+        ]
+      },
+      "hightlighter": "shiki"
+    }
+  },
+  "homepage": "https://sli.dev",
+  "bugs": "https://github.com/Euricom/slidev-theme-euricom/issues",
+  "dependencies": {
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/types": "^0.30.3",
+    "theme-vitesse": "^0.4.5"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.30.3",
+    "@types/node": "^17.0.24",
+    "typescript": "^4.3.2",
+    "vue": "^3.2.10"
+  }
+}
