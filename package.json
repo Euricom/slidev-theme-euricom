@@ -23,11 +23,11 @@
     "screenshot": "slidev export example.md --format png"
   },
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "light",
     "highlighter": "shiki",
     "defaults": {
       "fonts": {
-        "sans": "Source Sans Pro",
+        "sans": "Poppins",
         "serif": "IBM Plex Serif",
         "mono": "IBM Plex Mono",
         "weights": [

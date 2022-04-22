@@ -1,12 +1,11 @@
-import { resolve } from "path";
-import { defineWindiSetup } from "@slidev/types";
+import { resolve } from 'path';
+import { defineWindiSetup } from '@slidev/types';
+import windiConfig from '../windi.config';
 
 export default defineWindiSetup(() => ({
   extract: {
-    include: [resolve(__dirname, "**/*.vue")],
-    exclude: [resolve(__dirname, "node_modules")],
+    include: [resolve(__dirname, '**/*.vue')],
+    exclude: [resolve(__dirname, 'node_modules')],
   },
-  shortcuts: {
-    "bg-main": "bg-white text-[#181818] dark:(bg-[#121212] text-[#ddd])",
-  },
+  ...windiConfig,
 }));

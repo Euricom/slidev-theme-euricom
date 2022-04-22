@@ -89,20 +89,66 @@ This will be in the smaller, right column
 
 ```
 
-### Cover
+### Intro
 
-A Cover slide for the Talk Title & Subtitle
+A Intro slide for the Talk 
+- title
+- optional sub title
+- author
+
+![](./docs//mages//title.png)
+
+![](./docs//mages//title-dark.png)
 
 ### Section
 
 This slide can be used to split your talks into sections. It's meant to only have a single heading.
 
+![](./docs//mages//section.png)
+
+### Default slide (content slide)
+
+2 columns
+
+![](./docs//mages/2columns.png)
+
+2 columns
+
+![](./docs//mages/3columns.png)
+
+table
+
+![](./docs//mages/table.png)
+![](./docs//mages/table-dark.png)
+
+### Image
+
+![](./docs//mages/image-left.png)
+![](./docs//mages/image-left-dark.png)
+
+> Question: do we need a image right?
+
 ### Quote
 
-T.B.D
+![](./docs//mages//quote.png)
 
+### Closing
+
+![](./docs//mages//end.png)
+![](./docs//mages//end2.png)
+
+### Bullet points (optional)
+
+![](./docs//mages/bullet-points.png)
+
+### Table of content (optional)
+
+![](./docs//mages/image-right.png)
+
+> Question: Maybe better to provide image left en right and make no different between inner page and TOC
 
 ## Resources
 
+- [Euricom Branding](https://euricom.sharepoint.com/SitePages/Euricom-Branding.aspx)
 - https://github.com/LinusBorg/slidev-theme-vuetiful
 - https://github.com/slidevjs/themes

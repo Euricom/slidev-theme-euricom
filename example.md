@@ -4,7 +4,7 @@ layout: cover
 ---
 
 # Euricom Theme
-A Euricom Slidev theme for all my talks
+## A Euricom Slidev theme for all my talks
 
 ---
 

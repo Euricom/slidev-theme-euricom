@@ -69,12 +69,22 @@
   }
 }
 
+.slidev-layout.cover {
+  h1 {
+    @apply text-6xl leading-20 text-white font-bold;
+  }
+
+  h2 {
+    @apply text-2xl text-white;
+  }
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-6xl leading-20 text-white;
   }
 
   h1 + p {
