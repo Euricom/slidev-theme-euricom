@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-euricom",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.30.0"

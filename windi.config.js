@@ -1,6 +1,4 @@
-import { defineConfig } from 'windicss/helpers';
-
-export default defineConfig({
+export default {
   shortcuts: {
     'bg-main': 'bg-white text-[#181818] dark:(bg-[#121212] text-[#ddd])',
   },
@@ -30,4 +28,4 @@ export default defineConfig({
       },
     },
   },
-});
+};
