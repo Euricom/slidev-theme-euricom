@@ -8,6 +8,6 @@
       "resolveJsonModule": true,
       "types": ["vite/client", "./env.d.ts"]
     },
-    "include": ["components/**/*.vue", "layouts/**/*.vue", "setup/*.ts", "utils/*.js", "windi.config.js", "utils/props.ts"]
+    "include": ["components/**/*.vue", "layouts/**/*.vue", "setup/*.ts", "utils/*.js", "setup/windi.config.ts", "utils/props.ts"]
   }
   

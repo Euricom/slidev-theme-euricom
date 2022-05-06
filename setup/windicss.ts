@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 import { defineWindiSetup } from '@slidev/types';
-import windiConfig from '../windi.config';
+import windiConfig from './windi.config';
 
 export default defineWindiSetup(() => ({
   extract: {

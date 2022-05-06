@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { handleBackground } from '../utils/layoutHelper';
+import { handleBackground } from '../layoutHelper';
 const props = defineProps({
-  background: {
-    default: '',
+  background: String,
+  coverAuthor: String,
+  coverDate: {
+    type: String,
+    default: new Date().toLocaleDateString(),
   },
 });
 const style = computed(() => handleBackground(props.background, true));
@@ -17,4 +20,4 @@ const style = computed(() => handleBackground(props.background, true));
   </div>
 </template>
 
-<style lang="postcss"></style>
+<style></style>

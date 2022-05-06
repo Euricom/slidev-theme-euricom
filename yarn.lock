@@ -218,10 +218,10 @@
   resolved "https://registry.yarnpkg.com/@types/mdurl/-/mdurl-1.0.2.tgz#e2ce9d83a613bacf284c7be7d491945e39e1f8e9"
   integrity sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==
 
-"@types/node@^17.0.24":
-  version "17.0.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.24.tgz#20ba1bf69c1b4ab405c7a01e950c4f446b05029f"
-  integrity sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==
+"@types/node@^17.0.30":
+  version "17.0.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.30.tgz#2c6e8512acac70815e8176aa30c38025067880ef"
+  integrity sha512-oNBIZjIqyHYP8VCNAV9uEytXVeXG2oR0w9lgAXro20eugRQfY002qr3CUl6BAe+Yf/z3CRjPdz27Pu6WWtuSRw==
 
 "@vitejs/plugin-vue@^2.3.1":
   version "2.3.1"
@@ -2524,10 +2524,10 @@ theme-vitesse@^0.1.12:
   resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.1.14.tgz#e239d44fb0e61b3d0471fc86784b22e8b632dc96"
   integrity sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==
 
-theme-vitesse@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.4.5.tgz#3d567f5e2066174fe4449a702aabdd47ab701c9e"
-  integrity sha512-mjFo9j1diLwsikTJmdjk/81VsqIOt2SzlPlr9ZFeB7qEWtjA2SqeLvPz41FsxB2eQq02eOuq8diHAMxbRbAn5Q==
+theme-vitesse@^0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.4.9.tgz#b7c0015b3494f5dc499fa726b402aa706817facd"
+  integrity sha512-w8xrn8L2jm1gtPaV+ZLb3iWTfMha4NFhRiV65NmLVWsseADEqfAbMtpGvOSHwcttn4TSmMInZAKMGmsUYM2oHQ==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -2546,10 +2546,10 @@ type-fest@^0.21.3:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
-typescript@^4.3.2:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
-  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
+typescript@^4.6.4:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
+  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"

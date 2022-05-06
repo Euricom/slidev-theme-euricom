@@ -1,5 +1,4 @@
 ---
-title: Slidev-theme-euricom
 theme: ./
 lineNumbers: true 
 hideInToc: true
@@ -14,7 +13,6 @@ hideInToc: true
 layout: cover
 background: 'https://source.unsplash.com/1600x900/?nature,water'
 hideInToc: true
-dark: true
 ---
 
 # Welcome
@@ -41,6 +39,14 @@ And this can be used as test below it
 
 > If you want to use a quote, you can use the > character.
 
+<style>
+h1 {
+    code {
+       @apply text-euri-green font-sans
+    }
+}
+</style>
+
 ---
 
 # Table data
@@ -56,7 +62,7 @@ And this can be used as test below it
 layout: center
 ---
 
-# Centered `text`
+# Centered text
 ## Lorem ipsum dolor sit amet
 
 ---
@@ -148,7 +154,7 @@ layout: quote
 author: Linus Borg (2021)
 ---
 
-Big quotes make your thing
+# Big quotes make your talk look fancy
 
 ---
 
@@ -160,10 +166,9 @@ Big quotes make your thing
   <p>Extra large text</p>
 </div>
 
-
 <style>
 .xlarge { 
-  @apply text-green-500 text-1xl mt-10;
+  @apply text-red-500 text-8xl mt-10;
 }
 
 blockquote {

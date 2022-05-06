@@ -39,4 +39,4 @@ const gridColsSize = computed(() => {
   </div>
 </template>
 
-<style lang="postcss"></style>
+<style></style>

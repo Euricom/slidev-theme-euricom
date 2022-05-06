@@ -6,11 +6,11 @@ const props = defineProps({
 
 <template>
   <div class="slidev-layout quote">
-    <div class="my-auto w-full">
+    <div class="my-auto w-200 border-solid border-red-400 p-7">
       <slot />
       {{ author }}
     </div>
   </div>
 </template>
 
-<style lang="postcss"></style>
+<style></style>
