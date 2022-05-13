@@ -82,8 +82,7 @@
   }
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
+/* .slidev-layout.cover,
   @apply h-full grid bg-white dark:bg-petrol;
 
   h1 {
@@ -97,17 +96,13 @@
   h1 + h2 {
     @apply -mt-2 opacity-50 mb-4 font-200 text-black dark:text-white;
   }
-}
+} */
 
 .slidev-layout.quote {
   @apply h-full grid;
 
   h1 + p {
     @apply mt-2;
-  }
-
-  p {
-    @apply text-dynamic;
   }
 }
 

@@ -1,11 +1,3 @@
 {
-    "cSpell.words": [
-        "Euricom",
-        "shiki",
-        "slidev",
-        "windi"
-    ],
-    "html.validate.styles": false,
-    "css.validate": false,
     "svg.preview.background": "transparent"
 }

@@ -1,7 +1,7 @@
 ---
 title: Slidev-theme-euricom
 theme: ./
-lineNumbers: true 
+lineNumbers: true
 hideInToc: true
 ---
 
@@ -10,11 +10,11 @@ hideInToc: true
 
 ## Your way to a better presentation
 
+
 ---
 layout: cover
 background: 'https://source.unsplash.com/1600x900/?nature,water'
 hideInToc: true
-dark: true
 ---
 
 # Welcome
@@ -43,6 +43,22 @@ And this can be used as test below it
 
 ---
 
+# Navigation
+
+Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+
+### Keyboard Shortcuts
+
+| Key                                                 | Description                 |
+| --------------------------------------------------- | --------------------------- |
+| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
+| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| <kbd>up</kbd>                                       | previous slide              |
+| <kbd>down</kbd>                                     | next slide                  |
+
+
+---
+
 # Table data
 
 | Syntax    | Description |                                               Test Text |
@@ -60,7 +76,7 @@ layout: center
 ## Lorem ipsum dolor sit amet
 
 ---
-cols: 1-1 
+cols: 1-2 
 ---
 
 # Left Heading
@@ -79,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Use code snippets and get the highlighting directly!
 
-```html {all|2,3}
+```html {all|2,3|4,5|6,7|8,9}
 <template>
   <h1>Hello World"</h1>
   <div class="message">{{ message }}</div>
@@ -94,9 +110,11 @@ Use code snippets and get the highlighting directly!
 <style scoped>
   .message {
     color: red;
+    bg: yello
   }
 </style>
 ```
+
 
 ---
 
@@ -157,13 +175,13 @@ Big quotes make your thing
 > block quote, hello `world`
 
 <div class="xlarge">
-  <p>Extra large text</p>
+  Extra large text
 </div>
 
 
 <style>
 .xlarge { 
-  @apply text-green-500 text-1xl mt-10;
+  @apply text-green-500 text-6xl mt-2;
 }
 
 blockquote {
@@ -181,15 +199,11 @@ blockquote {
 
 <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="h-40 rounded-full absolute bottom-20 right-20" />
 
+![local image](/storyblok.png)
 
 ---
 layout: image-left
-
-# the image source
 image: https://images.unsplash.com/photo-1452110040644-6751c0c95836?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLHdhdGVyfHx8fHx8MTY1MTIzMTQ1NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600
-
-# a custom class name to the content
-class: my-cool-content-on-the-right
 ---
 
 # Keep it zen 
@@ -198,12 +212,7 @@ When you realize nothing is lacking, the whole world belongs to you
 
 ---
 layout: image-right
-
-# the image source
 image: https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?s=612x612
-
-# a custom class name to the content
-class: my-cool-content-on-the-right
 ---
 
 # The Programming Life
