@@ -235,3 +235,26 @@ sequenceDiagram
 ```
 
 See more at https://mermaid-js.github.io/mermaid/#/
+
+---
+
+# Icons
+
+### [Rocket](https://iconscout.com/unicons)
+
+<uim-rocket />
+<uim-rocket class="text-3xl text-red-400 mx-2" />
+<uim-rocket class="text-3xl text-orange-400 animate-ping m-2" />
+
+### [materialdesignicons](https://materialdesignicons.com/)
+
+<mdi-account-circle class="text-3xl m-2" />
+<mdi-account-clock class="text-3xl m-2" />
+
+### [Twitter Emoji (Twemoji)](https://github.com/twitter/twemoji)
+See https://emojipedia.org/
+
+<twemoji-cat-with-tears-of-joy class="text-3xl m-2" />
+
+<twemoji-slightly-smiling-face class="text-3xl m-2 " />
+<twemoji-fire class="text-3xl m-2" />
