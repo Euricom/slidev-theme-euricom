@@ -42,6 +42,18 @@ And this can be used as test below it
 > If you want to use a quote, you can use the > character.
 
 ---
+layout: big-points
+titleRow: true
+---
+
+# Need to make a few big points?
+
+- Increased font size...
+- ...and centered content
+- help stressing a few points
+
+
+---
 
 # Navigation
 
@@ -69,13 +81,6 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 
 ---
-layout: center
----
-
-# Centered `text`
-## Lorem ipsum dolor sit amet
-
----
 cols: 1-2 
 ---
 
@@ -88,6 +93,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # Right Heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+---
+slideTitle: Two columns with single title
+titleRow: true
+cols: 1-2 
+---
+
+#### Right Heading
+
+This content can now be styled/positioned independent of the title, because it will be in a separate grid cell.
+
+::right::
+
+#### Left Heading
+
+This content can now be styled/positioned independent of the title, because it will be in a separate grid cell.
 
 ---
 
