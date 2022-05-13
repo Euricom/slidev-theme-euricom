@@ -42,10 +42,11 @@
     "@iconify-json/twemoji": "^1.1.4",
     "@iconify-json/uim": "^1.1.1",
     "@slidev/theme-default": "^0.21.2",
+    "lodash-es": "^4.17.21",
     "theme-vitesse": "^0.4.9"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.31.3",
+    "@slidev/cli": "^0.31.4",
     "playwright-chromium": "^1.11.0"
   }
 }

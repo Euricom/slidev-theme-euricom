@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed } from "vue";
 
 const props = defineProps({
-  title: String,
+  slideTitle: String,
   titleRow: Boolean,
   cols: String,
 });
@@ -10,12 +10,12 @@ const props = defineProps({
 const gridColsSize = computed(() => {
   if (!props.cols) return null;
   switch (props.cols) {
-    case '1-1':
-      return 'grid-cols-2';
-    case '1-2':
-      return 'grid-cols-[1fr,2fr]';
-    case '2-1':
-      return 'grid-cols-[2fr,1fr]';
+    case "1-1":
+      return "grid-cols-2";
+    case "1-2":
+      return "grid-cols-[1fr,2fr]";
+    case "2-1":
+      return "grid-cols-[2fr,1fr]";
     default:
       return props.cols;
   }
@@ -28,7 +28,7 @@ const gridColsSize = computed(() => {
     :class="[titleRow ? 'grid-rows-[60px,1fr]' : null, gridColsSize]"
   >
     <div v-if="titleRow" :class="cols ? 'col-span-2' : null">
-      <h1>{{ title }}</h1>
+      <h1>{{ slideTitle }}</h1>
     </div>
     <div>
       <slot />
