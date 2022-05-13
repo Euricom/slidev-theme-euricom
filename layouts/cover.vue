@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { handleBackground } from '../layoutHelper';
+import { computed } from "vue";
+import { handleBackground } from "../layoutHelper";
 const props = defineProps({
   background: String,
-  coverAuthor: String,
-  coverDate: {
+  author: String,
+  location: String,
+  date: {
     type: String,
     default: new Date().toLocaleDateString(),
   },
