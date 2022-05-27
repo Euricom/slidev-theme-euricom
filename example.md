@@ -185,24 +185,25 @@ const HelloMessage => ({ name }) => ( {
 ---
 layout: quote
 author: Linus Borg (2021)
+background: '/photo4.jpeg'
 ---
 
-Big quotes make your thing
+# Big quotes make your talk look fancy
 
 ---
 
-# Embedded Style
+# Embedded Custom Style
 
 > block quote, hello `world`
 
 <div class="xlarge">
-  Extra large text
+  Green large text
 </div>
 
 
 <style>
 .xlarge { 
-  @apply text-green-500 text-6xl mt-2;
+  @apply text-green-500 text-7xl mt-2 font-bold;
 }
 
 blockquote {

@@ -99,10 +99,10 @@
 } */
 
 .slidev-layout.quote {
-  @apply h-full grid;
+  @apply h-full text-center grid;
 
-  h1 + p {
-    @apply mt-2;
+  h1 {
+    @apply text-8xl font-bold;
   }
 }
 

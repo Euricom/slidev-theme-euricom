@@ -38,7 +38,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.12",
+    "@iconify-json/mdi": "^1.1.19",
     "@iconify-json/twemoji": "^1.1.4",
     "@iconify-json/uim": "^1.1.1",
     "@slidev/theme-default": "^0.21.2",
@@ -46,7 +46,7 @@
     "theme-vitesse": "^0.4.9"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.31.4",
-    "playwright-chromium": "^1.11.0"
+    "@slidev/cli": "^0.32.3",
+    "playwright-chromium": "^1.22.2"
   }
 }
