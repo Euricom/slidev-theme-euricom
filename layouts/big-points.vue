@@ -25,7 +25,7 @@ const defaultAttrs = computed(() => ({
 <style lang="postcss">
 .slidev-layout .big-content {
   h1 {
-    @apply text-5xl;
+    @apply text-5xl font-bold;
   }
   p,
   li {

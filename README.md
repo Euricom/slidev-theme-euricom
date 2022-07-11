@@ -161,6 +161,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 layout: quote
 author: Linus Borg (2021)
+background: 'https://source.unsplash.com/1600x900/?nature,water'
 ---
 
 Big quotes make your thing
@@ -176,4 +177,79 @@ author: Linus Borg (2021)
 ---
 
 Big quotes make your thing
+```
+
+## Components
+
+### Icons
+
+The following icons are by available in this theme:
+
+
+**[Rocket](https://iconscout.com/unicons)**
+  
+```html
+<uim-rocket />
+<uim-rocket class="text-3xl text-red-400 mx-2" />
+<uim-rocket class="text-3xl text-orange-400 animate-ping m-2" />
+```
+
+**[materialdesignicons](https://materialdesignicons.com/)**
+
+```html
+<mdi-account-circle class="text-3xl m-2" />
+<mdi-account-clock class="text-3xl m-2" />
+```
+
+**[Twitter Emoji (Twemoji)](https://github.com/twitter/twemoji)**
+
+See https://emojipedia.org/
+
+```html
+<twemoji-cat-with-tears-of-joy class="text-3xl m-2" />
+<twemoji-slightly-smiling-face class="text-3xl m-2 " />
+<twemoji-fire class="text-3xl m-2" />
+```
+
+## Support Classes
+
+You can specify a class on the Front Matter
+
+```
+---
+class: code_large
+---
+```
+
+Following classes can be used:
+
+| Class       | Description                      |
+| ----------- | -------------------------------- |
+| code-small  | Small font for code blocks       |
+| code-large  | Large font for code blocks       |
+| code-xlarge | Extra large font for code blocks |
+| text-center | Center all text                  |
+
+## Tips
+
+You can add a custom style block on your slide.
+
+```html
+<style>
+  h1 {
+    @apply text-3xl mb-3 text-white;
+  }
+  
+  code {
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 1.5em;
+  }
+</style>
+```
+
+Position you images
+
+```html
+<img src="/my-image.png" class="h-40 rounded-full absolute bottom-20 right-20" />
 ```

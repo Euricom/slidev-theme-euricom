@@ -10,10 +10,15 @@ hideInToc: true
 
 ## Your way to a better presentation
 
+<div class="absolute bottom-10">
+  <small>
+  Copyright (c) 2022 Euricom nv.
+  </small>
+</div>
 
 ---
 layout: cover
-background: 'https://source.unsplash.com/1600x900/?nature,water'
+background: https://source.unsplash.com/1600x900/?nature,water
 hideInToc: true
 ---
 
@@ -23,10 +28,12 @@ hideInToc: true
 ## Always better with an image
 
 ---
+layout: section-dark
+background: https://source.unsplash.com/1600x900/?nature
+---
 
-# Agenda
-
-<Toc />
+# This is a section
+## With sub title
 
 ---
 
@@ -100,13 +107,13 @@ titleRow: true
 cols: 1-2 
 ---
 
-#### Right Heading
+### Right Heading
 
 This content can now be styled/positioned independent of the title, because it will be in a separate grid cell.
 
 ::right::
 
-#### Left Heading
+### Left Heading
 
 This content can now be styled/positioned independent of the title, because it will be in a separate grid cell.
 
@@ -156,6 +163,7 @@ add(1, "2")
 
 ---
 cols: 1-1 
+class: code-small
 ---
 
 # React Class Component
@@ -180,6 +188,50 @@ const HelloMessage => ({ name }) => ( {
   }
 }
 ```
+
+---
+
+# Enlarge Code Snippets
+
+<div class="code-xsmall">
+
+```ts
+// code-xsmall
+const number = 12;
+console.log(number)
+```
+
+</div>
+
+<div class="code-small">
+
+```ts
+// code-small
+const number = 12;
+console.log(number)
+```
+
+</div>
+
+<div>
+
+```ts
+// default
+const number = 12;
+console.log(number)
+```
+</div>
+
+
+<div class="code-large">
+
+```ts
+// code-xlarge
+const number = 12;
+console.log(number)
+```
+</div>
+
 
 
 ---
@@ -219,27 +271,43 @@ blockquote {
 
 ![Remote Image](https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png)
 
-<img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="h-40 rounded-full absolute bottom-20 right-20" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBpIXGi8muXPliBaKcKEGmrO6MsoGd1LxvQ&usqp=CAU" class="h-40 rounded-full absolute bottom-30 right-30 w-40" />
 
-![local image](/storyblok.png)
+![local image](/tech.jpeg)
 
 ---
 layout: image-left
 image: https://images.unsplash.com/photo-1452110040644-6751c0c95836?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlLHdhdGVyfHx8fHx8MTY1MTIzMTQ1NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600
+class: code-small
 ---
 
 # Keep it zen 
 
 When you realize nothing is lacking, the whole world belongs to you
 
+```md
+---
+layout: image-left
+image: https://images.com/my-image.png
+---
+```
+
 ---
 layout: image-right
 image: https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?s=612x612
+class: code-small
 ---
 
 # The Programming Life
 
 How many programmers does it take to change a light bulb? None, that’s a hardware problem
+
+```md
+---
+layout: image-right
+image: https://images.com/my-image.png
+---
+```
 
 ---
 layout: iframe
@@ -280,3 +348,4 @@ See https://emojipedia.org/
 
 <twemoji-slightly-smiling-face class="text-3xl m-2 " />
 <twemoji-fire class="text-3xl m-2" />
+

@@ -12,7 +12,7 @@
   h1 {
     @apply text-4xl mb-4 -ml-[0.05em] dark:text-white;
     code {
-      @apply text-euri-green font-sans;
+      @apply text-4xl  text-euri-green font-sans;
     }
   }
 
@@ -53,12 +53,12 @@
   }
 
   th {
-    @apply text-left font-400 bg-petrol text-white dark:text-black;
+    @apply text-left font-400 bg-petrol text-white dark:text-black dark:bg-white;
   }
 
   td,
   th {
-    @apply p-2 py-3;
+    @apply p-2 py-3 ;
   }
 
   b,
@@ -72,9 +72,16 @@
   }
 
   code {
-    font-weight: 600;
+    /* font-weight: 500;
     font-size: 1.1em;
-    line-height: 1.3em;
+    line-height: 1.3em; */
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+
+  small {
+    @apply text-petrol dark:text-white;
   }
 }
 
@@ -86,23 +93,15 @@
   h2 {
     @apply text-2xl text-white;
   }
+
+  p {
+    @apply text-white;
+  }
+
+  small {
+    @apply text-xs text-white;
+  }
 }
-
-/* .slidev-layout.cover,
-  @apply h-full grid bg-white dark:bg-petrol;
-
-  h1 {
-    @apply text-6xl leading-20 text-petrol dark:text-white;
-  }
-
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4 font-200 text-black dark:text-white;
-  }
-
-  h1 + h2 {
-    @apply -mt-2 opacity-50 mb-4 font-200 text-black dark:text-white;
-  }
-} */
 
 .slidev-layout.quote {
   @apply h-full text-center grid;
@@ -114,6 +113,56 @@
 
 .slidev-layout.section {
   h1 {
-    @apply text-6xl font-500 leading-20;
+    @apply text-6xl leading-20 text-petrol dark:text-white font-bold;
+  }
+
+  h2 {
+    @apply text-4xl mb-3 text-petrol dark:text-white;
+  }
+}
+
+.slidev-layout.section-light {
+  @apply px-14 py-10 bg-white;
+  h1 {
+    @apply text-6xl leading-20 text-petrol font-bold;
+  }
+
+  h2 {
+    @apply text-4xl mb-3 text-petrol;
+  }
+}
+
+.slidev-layout.section-dark {
+  @apply px-14 py-10 bg-petrol;
+  h1 {
+    @apply text-6xl leading-20 text-white font-bold;
+  }
+
+  h2 {
+    @apply text-4xl mb-3 text-white;
+  }
+}
+
+.code-xsmall {
+  code {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1em;
+  }
+}
+
+.code-small {
+  code {
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+}
+
+.code-large {
+  code {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.2em;
   }
 }
