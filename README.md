@@ -253,3 +253,14 @@ Position you images
 ```html
 <img src="/my-image.png" class="h-40 rounded-full absolute bottom-20 right-20" />
 ```
+
+Global style changes (style.css)
+
+```css
+/* To change code block font */
+code {
+  font-weight: 400 !important;
+  font-size: 1.3em !important;
+  line-height: 1.2em !important;
+} 
+```

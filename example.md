@@ -243,6 +243,13 @@ background: '/photo4.jpeg'
 # Big quotes make your talk look fancy
 
 ---
+layout: quote
+author: Linus Borg (2021)
+---
+
+# Big quotes make your talk look fancy
+
+---
 
 # Embedded Custom Style
 

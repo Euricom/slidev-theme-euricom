@@ -1,5 +1,9 @@
 # CHANGELOG.md
 
+# 0.2.8
+
+- fix: quote layout with dark/light layout invalid
+
 # 0.2.7
 
 - change: section layout increase h1/h2 font size 
